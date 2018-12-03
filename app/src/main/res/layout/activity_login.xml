@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_name_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="用户名:"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/EditText_name_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入你的用户名"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout_password_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="密码:"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/EditText_password_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入你的密码"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/CheckBox_remember_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="记住密码"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_login_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <TextView
+        android:id="@+id/TextView_register_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="还没有帐号？来注册一个吧"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

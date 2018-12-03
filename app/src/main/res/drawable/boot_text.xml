@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@color/colorBlue"/><!--导航控件被选中的状态-->
+    <item android:drawable="@color/colorWhite"/><!--导航控件未被选中状态-->
+</selector>

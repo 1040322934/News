@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">简阅</string>
+    <string name="recommend">精选</string>
+    <string name="entertainment">娱乐</string>
+    <string name="sport">运动</string>
+    <string name="main">简阅</string>
+    <string name="history">历史</string>
+    <string name="collection">收藏</string>
+    <string name="web">简阅</string>
+    <string name="recommendUrl">http://c.3g.163.com/nc/article/list/T1467284926140/</string>
+    <string name="entertainmentUrl">http://c.3g.163.com/nc/article/list/T1348648517839/</string>
+    <string name="sportUrl">http://c.3g.163.com/nc/article/list/T1348649079062/</string>
+</resources>

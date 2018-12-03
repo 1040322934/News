@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="account"></dbname>
+    <version value="2"></version>
+    <list>
+        <mapping class="com.example.lin.bootpage.BasicClass.Account"></mapping>
+        <mapping class="com.example.lin.bootpage.BasicClass.Collection"></mapping>
+        <mapping class="com.example.lin.bootpage.BasicClass.History"></mapping>
+    </list>
+</litepal>

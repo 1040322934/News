@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--控件背景填充色-->
+    <solid android:color="@color/colorWhite"/>
+    <!--控件边框颜色-->
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorBlue"/>
+    <!--控件边框圆角-->
+    <corners android:radius="5dp"/>
+</shape>
